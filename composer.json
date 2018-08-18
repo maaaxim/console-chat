@@ -1,0 +1,16 @@
+{
+    "name": "maaaxim/console-chat",
+    "description": "Experimental local console chat based on sockets",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxim Loboda",
+            "email": "maxim.loboda@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"Maaaxim\\ConsoleChat\\": "src/"}
+    }
+}
