@@ -16,6 +16,6 @@
         "psr-4": {"Maaaxim\\ConsoleChat\\": "src/"}
     },
     "scripts": {
-        "post-update-cmd" : "Maaaxim\\Utils::checkOs"
+        "post-dependencies-solving" : "Maaaxim\\Utils::checkOs"
     }
 }
