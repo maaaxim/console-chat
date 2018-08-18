@@ -9,7 +9,9 @@
             "email": "maxim.loboda@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "symfony/console": "^4.1"
+    },
     "autoload": {
         "psr-4": {"Maaaxim\\ConsoleChat\\": "src/"}
     },
