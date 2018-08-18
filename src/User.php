@@ -8,5 +8,9 @@
 
 class User
 {
-
+    protected $client;
+    protected $server;
+    public function __construct()
+    {
+    }
 }

@@ -12,5 +12,8 @@
     "require": {},
     "autoload": {
         "psr-4": {"Maaaxim\\ConsoleChat\\": "src/"}
+    },
+    "scripts": {
+        "post-update-cmd" : "Maaaxim\\Utils::checkOs"
     }
 }

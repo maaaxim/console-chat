@@ -8,5 +8,8 @@
 
 class Utils
 {
-
+    public function checkOs()
+    {
+        throw new RuntimeException("Wrong OS");
+    }
 }
